@@ -9,9 +9,9 @@ const About = () => {
     Lorem ipsum dolor sit Lorem ipsum dolor sit `
   return (
     <>
-      <Navbar/>
+    
       <AboutBanner heading = {heading} para = {para} />
-      <Footer/>
+      
     </>
   )
 }

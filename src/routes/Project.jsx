@@ -9,12 +9,10 @@ const Projects = () => {
   const para = `Lorem ipsum dolor sit amet 
  consectetur adipisicing elit`
   return (
-    <div>
-      <Navbar />
+    <>
       <BannerProject heading={heading} para={para} />
       <Card />
-      <Footer />
-    </div>
+    </>
   )
 }
 

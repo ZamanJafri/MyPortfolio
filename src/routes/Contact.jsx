@@ -6,9 +6,9 @@ import ContactBanner from '../Component/ContactBanner'
 const Contact = () => {
   return (
     <>
-      <Navbar />
+     
       <ContactBanner />
-      <Footer />
+      
     </>
   )
 }
