@@ -6,12 +6,10 @@ import Card from '../Component/Card'
 
 const Home = () => {
   return (
-    <div>
-       
-       <BannerSection/>
-       <Card/>       
-       
-    </div>
+    <>
+      <BannerSection />
+      <Card />
+    </>
   )
 }
 

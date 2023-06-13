@@ -19,7 +19,7 @@ const Navbar = () => {
 
                 <ul className={toggle ? 'list active' : 'list'}>
                     <li>
-                        <Link className='anchorTag' to={'/home'}>Home</Link>
+                        <Link className='anchorTag' to='/'>Home</Link>
                     </li>
                     <li>
                         <Link className='anchorTag' to={'/about'}>About</Link>

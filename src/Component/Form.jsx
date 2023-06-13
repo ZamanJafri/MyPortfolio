@@ -34,19 +34,19 @@ const Form = () => {
         <form action="" onSubmit={submitData}>
           <div>
             <label htmlFor="u_name" className={err ? ' err ' : 'label'}>{err ? 'username is require*' : 'Username'}</label><br />
-            <input type="text" placeholder='Enter Your Good Name'
+            <input type="text" placeholder='Enter Your Good Name' autoComplete='off'
               name='username'
               value={userInput.username} onChange={sethandler} />
           </div>
           <div>
-            <label htmlFor="phone" className={err ? ' err ' : 'label'}>{err ? 'email is require*' : 'Email'}</label><br />
-            <input type="number" min={0} name='phone'
+            <label htmlFor="phone" className={err ? ' err ' : 'label'}>{err ? 'number is require*' : 'Mobile Number'}</label><br />
+            <input type="number" min={0} name='phone' autoComplete='off'
               placeholder='Enter Your Mobile Number'
               value={userInput.number} onChange={sethandler} />
           </div>
           <div>
             <label htmlFor="email">Email</label><br />
-            <input type="text" placeholder='Enter Your Email'
+            <input type="email" placeholder='Enter Your Email' autoComplete='off'
               name='email' onChange={sethandler}
               value={userInput.email} />
           </div>

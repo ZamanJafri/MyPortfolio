@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from '../Component/Navbar'
-import Footer from '../Component/Footer'
 import AboutBanner from '../Component/AboutBanner'
 
 const About = () => {
