@@ -5,7 +5,7 @@ const AboutBanner = ({heading, para}) => {
         <div className='AboutBanner'>
             <div className="aboutcontainer">
                 <h1>{heading}</h1>
-                <p>{para}</p>
+                <p>{para}</p> 
             </div>
 
         </div>

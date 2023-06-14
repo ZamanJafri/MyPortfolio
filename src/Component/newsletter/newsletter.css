@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 50px;   
+    margin-bottom: 50px;   
+    flex-direction: column;
+
+}
+.container h1{
+    color: #000;
+    font-style: italic;
+    padding: 10px;
+}
+.subcribe-input{
+    padding: 40px; 
+}
+/* .subcribe-input form>:nth-child(1){
+    display: flex;
+    gap: 2rem;
+} */

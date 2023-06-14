@@ -10,22 +10,34 @@
     height: 70px;
     justify-content: space-between;
     align-items: center;
-    background-color: black;       
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
-.logo{
+
+.logo {
     padding: 15px 30px;
-    
+
 }
-.logo  h1{
-font-style: italic;
-outline: 5px solid #f73451;
-border-radius: 12px;
-padding: 3px 8px;
+
+.my-logo {
+    display: flex;
+    background-color: black;
 }
+
+.my-logo>:nth-child(1) {
+    background-color: #fff;
+    color: black;
+}
+
+.logo h1 {
+    font-style: italic;
+    outline: 5px solid #f73451;
+    border-radius: 12px;
+    padding: 0 4px 0 0;
+}
+
 .list {
     list-style: none;
     display: flex;
@@ -62,9 +74,11 @@ padding: 3px 8px;
     .list.active {
         left: 0;
     }
-.logo{
-    z-index: 2;
-}
+
+    .logo {
+        z-index: 2;
+    }
+
     .list li {
         padding: 10px;
         font-size: 20px;
@@ -109,7 +123,7 @@ padding: 3px 8px;
 .image-section::after {
     content: '';
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     position: absolute;
     top: 0;
     left: 0;
@@ -266,7 +280,7 @@ span {
     width: 100%;
     height: 80vh;
     position: absolute;
-    background-image: url('../assets/img/download3.jpg');
+    background-image: url('../assets/img/contact.avif');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     z-index: -1;
@@ -396,11 +410,13 @@ textarea {
     padding: 10px;
     margin-bottom: 10px;
 }
+
 label {
     color: #fff;
     font-size: 17px;
     font-weight: 600;
 }
+
 @media only screen and (max-width:768px) {
     form {
         width: 100%;
@@ -412,7 +428,13 @@ label {
         display: none;
     }
 }
-.err{
+
+.err {
     color: #f73451;
     font-size: 18px;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
 }

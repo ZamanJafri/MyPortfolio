@@ -1,0 +1,14 @@
+.container-our-team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.our-team .row-our-team{
+    display: flex;
+    gap: .5rem;
+}
+.col-our-team img:hover{
+cursor: pointer;
+}
